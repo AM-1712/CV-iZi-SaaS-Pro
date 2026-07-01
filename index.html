@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivrExpress - Livraison Rapide à Port-Gentil</title>
+    <meta name="description" content="LivrExpress, la solution de livraison la plus rapide et sécurisée à Port-Gentil. Découvrez nos offres adaptées à tous vos besoins.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-shipping-fast"></i> Livr<span>Express</span>
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#how-it-works">Comment ça marche</a></li>
+                    <li><a href="#pricing">Tarifs</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                </ul>
+                <a href="#" class="btn btn-primary nav-btn js-contact-trigger" data-plan="Commande depuis la navigation">Commander</a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Ouvrir le menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Nouveau à Port-Gentil</span>
+                <h1>La livraison la plus <span class="highlight">rapide</span> et fiable de la ville.</h1>
+                <p>Confiez-nous vos colis, documents et courses. Nous les livrons à destination en un temps record, avec une sécurité garantie.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-primary btn-lg js-contact-trigger" data-plan="Demande générale">Voir nos offres <i class="fas fa-arrow-right"></i></a>
+                    <a href="#how-it-works" class="btn btn-outline btn-lg">Découvrir le service</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1615460549969-36fa19521a4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Livreur LivrExpress en action">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Livraison en 30 min</h4>
+                            <p>Express garanti</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4>100% Sécurisé</h4>
+                            <p>Colis assurés</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="how-it-works section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comment ça marche ?</h2>
+                <p>Un processus simple et transparent pour vous faire gagner du temps.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Commandez</h3>
+                    <p>Choisissez votre offre et indiquez les adresses de ramassage et de livraison en quelques clics.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3>Nous Récupérons</h3>
+                    <p>Un livreur partenaire se présente à l'adresse de départ pour récupérer votre colis en toute sécurité.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>C'est Livré !</h3>
+                    <p>Suivez votre colis en temps réel jusqu'à sa remise en main propre au destinataire.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Tarifs</h2>
+                <p>Des offres adaptées à tous vos besoins d'expédition, sans frais cachés.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Offer 1 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <div class="price"><span>1500</span> FCFA</div>
+                        <p>Idéal pour les envois non urgents</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Livraison en 2 à 4 heures</li>
+                        <li><i class="fas fa-check"></i> Colis jusqu'à 5 kg</li>
+                        <li><i class="fas fa-check"></i> Suivi SMS de base</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Assurance premium</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-block js-contact-trigger" data-plan="Standard">Choisir Standard</a>
+                </div>
+                <!-- Offer 2 -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Le plus choisi</div>
+                    <div class="pricing-header">
+                        <h3>Express</h3>
+                        <div class="price"><span>2500</span> FCFA</div>
+                        <p>La rapidité au meilleur prix</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Livraison en - de 60 min</li>
+                        <li><i class="fas fa-check"></i> Colis jusqu'à 10 kg</li>
+                        <li><i class="fas fa-check"></i> Suivi GPS en temps réel</li>
+                        <li><i class="fas fa-check"></i> Assurance incluse (jusqu'à 50k FCFA)</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-block js-contact-trigger" data-plan="Express">Choisir Express</a>
+                </div>
+                <!-- Offer 3 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>VIP Course</h3>
+                        <div class="price"><span>5000</span> FCFA</div>
+                        <p>Pour vos urgences absolues</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Livreur dédié immédiat</li>
+                        <li><i class="fas fa-check"></i> Poids sur mesure</li>
+                        <li><i class="fas fa-check"></i> Priorité absolue</li>
+                        <li><i class="fas fa-check"></i> Assurance premium intégrale</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-block js-contact-trigger" data-plan="VIP Course">Choisir VIP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce qu'ils disent de nous</h2>
+                <p>La satisfaction de nos clients est notre plus belle récompense.</p>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"Incroyable rapidité ! J'ai oublié un document important à la maison, LivrExpress me l'a rapporté au bureau en moins de 20 minutes. Sauvé !"</p>
+                    <div class="reviewer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Marie">
+                        <div class="reviewer-info">
+                            <h4>Marie D.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"J'utilise l'offre Express pour envoyer mes créations à mes clients. Le service est toujours au top, les livreurs sont polis et les colis arrivent intacts."</p>
+                    <div class="reviewer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marc">
+                        <div class="reviewer-info">
+                            <h4>Marc E.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"La meilleure entreprise de livraison à Port-Gentil. Les tarifs sont clairs, pas de mauvaise surprise. L'application de suivi est un vrai plus."</p>
+                    <div class="reviewer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sophie">
+                        <div class="reviewer-info">
+                            <h4>Sophie L.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-shipping-fast"></i> Livr<span>Express</span>
+                    </a>
+                    <p>Votre partenaire de confiance pour la livraison rapide à Port-Gentil. Nous connectons les gens et les entreprises.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#how-it-works">Comment ça marche</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                        <li><a href="#testimonials">Avis clients</a></li>
+                        <li><a href="#">Devenir Livreur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contactez-nous</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Centre-ville, Port-Gentil, Gabon</li>
+                        <li><i class="fas fa-phone-alt"></i> +241 01 23 45 67</li>
+                        <li><i class="fas fa-envelope"></i> contact@livrexpress.ga</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LivrExpress. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="contact-modal" id="contactModal" aria-hidden="true">
+        <div class="contact-modal-card" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+            <button class="contact-modal-close" type="button" aria-label="Fermer" data-close-contact>&times;</button>
+            <div class="contact-modal-header">
+                <h3 id="contactModalTitle">Prendre contact</h3>
+                <p>Renseignez vos informations ci-dessous. Nous vous répondrons rapidement sur WhatsApp.</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="hidden" id="planInput" name="plan" value="Demande générale">
+                <div class="field-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required placeholder="Votre nom">
+                </div>
+                <div class="field-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Ex. +241 66 66 91 97">
+                </div>
+                <div class="field-group">
+                    <label for="address">Adresse / lieu</label>
+                    <input type="text" id="address" name="address" required placeholder="Votre adresse ou quartier">
+                </div>
+                <div class="field-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Décrivez votre besoin..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Envoyer via WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
